@@ -6,7 +6,7 @@
 .pnp.js
 
 #env
-src/firebase.js
+#src/firebase.js
 
 # testing
 /coverage
