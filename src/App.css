@@ -1,12 +1,26 @@
-.App {
-  text-align: center;
+body{
+  background-color: #282c34;
+  color: white;
 }
-
+.App {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.list-parent{
+  list-style-type: none;
+  padding: 0;
+}
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
 }
-
+p.post-content{
+  font-size: 15px;
+}
+h3.post-title{
+  font-size: 18px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -14,12 +28,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -28,6 +38,28 @@
   color: #61dafb;
 }
 
+.post-list{
+  background: #373e46;
+  padding: 10px 55px;
+  border-radius: 50px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  text-align: left;
+}
+.save-btn{
+  top: 5px;
+  right: 0;
+  border: none;
+  background-color: #491974;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 50px;
+  position: absolute;
+  cursor: pointer;
+}
+.post-data{
+  position: relative;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
